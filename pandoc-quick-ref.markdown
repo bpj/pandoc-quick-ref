@@ -3,7 +3,7 @@
   \<<bpjonsson@gmail.com>\>
 % 18 September 2013
 
-<!-- https://gist.github.com/bpj/6639231 -->
+<!-- https://gist.github.com/bpj/6639231#file-pandoc-quick-ref-markdown -->
 
 For the full official description see the [Pandoc User Guide]
 
@@ -11,7 +11,7 @@ This is a *really* quick reference without
 explanations,[^exception] intended to remind new or returning
 users who have already read the official User Guide.
 
-This file lives as a [gist on Github](https://gist.github.com/bpj/6639231).
+This file lives as a [gist on Github].
 
 If you read it there bear in mind that it may contain markup
 specific to Pandoc's Markdown dialect which the Github renderer
@@ -30,6 +30,7 @@ look like when converted to various formats and when rendered.[^fileformat]
 
 
 [Pandoc User Guide]: <http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown>
+[gist on Github]: <https://gist.github.com/bpj/6639231#file-pandoc-quick-ref-markdown>.
 [Lipsum]:  <http://en.wikipedia.org/wiki/Lipsum>
 
 [^exception]: I snuck in a use case for really ugly pipe tables, though!
