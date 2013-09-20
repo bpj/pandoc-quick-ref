@@ -30,7 +30,7 @@ look like when converted to various formats and when rendered.[^fileformat]
 
 
 [Pandoc User Guide]: <http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown>
-[gist on Github]: <https://gist.github.com/bpj/6639231#file-pandoc-quick-ref-markdown>.
+[gist on Github]: <https://gist.github.com/bpj/6639231#file-pandoc-quick-ref-markdown>
 [Lipsum]:  <http://en.wikipedia.org/wiki/Lipsum>
 
 [^exception]: I snuck in a use case for really ugly pipe tables, though!
