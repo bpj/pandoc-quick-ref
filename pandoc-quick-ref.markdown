@@ -16,7 +16,7 @@ This file lives as a [gist on Github](https://gist.github.com/bpj/6639231).
 If you read it there bear in mind that it may contain markup
 specific to Pandoc's Markdown dialect which the Github renderer
 can't handle. (Currently there are only a couple of
-[footnotes](#Footnotes).)
+[footnotes](#footnotes).)
 
 If you wonder why I'm using [Lipsum] everywhere in the examples
 it is so as to make it easier to translate: you only have to
