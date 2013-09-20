@@ -195,22 +195,22 @@ Tables
 Simple tables
 -------------
 
-	Right	  Left	   Center	  Default
-	-------		------ ----------	-------
-	12	   12		 12			   12
-	123		123		  123		   123
-	1	  1			 1			   1
+	  Right     Left     Center     Default
+	-------     ------ ----------   -------
+	     12     12        12            12
+	    123     123       123          123
+	      1     1          1             1
 
-	Table:	Demonstration of simple table syntax.
+	Table: Demonstration of simple table syntax.
 
 Header-less tables
 ------------------
 
-	-------		------ ----------	-------
-	 12		12		  12			12
-	123		123		  123		   123
-	  1		1		   1
-	-------		------ ----------	-------
+	-------     ------ ----------   -------
+	     12     12        12            12
+	    123     123       123          123
+	      1     1          1
+	-------     ------ ----------   -------
 
 	: Header-less table
 
@@ -218,15 +218,15 @@ Multi-line tables
 -----------------
 
 	-----------------------------------------------
-	Saepe	Accusamus	Voluptatem
-	------	----------	---------------------------
-	Quis	Impedit		Laudantium incidunt ab iure
-			recusandae.
+	Saepe   Accusamus   Voluptatem
+	------  ----------  ---------------------------
+	Quis    Impedit     Laudantium incidunt ab iure
+	        recusandae.
 
-	Tempore Inventore	Officiis facere officiis a.
+	Tempore Inventore   Officiis facere officiis a.
 
-	Ex		Et			Maxime eos natus iusto officia
-			consequuntur et.
+	Ex      Et          Maxime eos natus iusto officia
+	                    consequuntur et.
 	-----------------------------------------------
 
 	: Multi-line table
@@ -235,17 +235,17 @@ Grid tables
 -----------
 
 	+-------+-----------+---------------------------+
-	|Saepe	|Accusamus	|Voluptatem					|
+	|Saepe  |Accusamus  |Voluptatem                 |
 	+=======+===========+===========================+
-	|Quis	|Impedit	|Laudantium incidunt ab iure|
-	|		|			|recusandae.				|
+	|Quis   |Impedit    |Laudantium incidunt ab iure|
+	|       |           |recusandae.                |
 	+-------+-----------+---------------------------+
-	|Tempore|Inventore	|~~~						|
-	|		|			|print("Officiis facere");	|
-	|		|			|~~~						|
+	|Tempore|Inventore  |~~~                        |
+	|       |           |print("Officiis facere");  |
+	|       |           |~~~                        |
 	+-------+-----------+---------------------------+
-	|Ex		|Et			|Maxime eos natus iusto		|
-	|		|			|officia consequuntur et.	|
+	|Ex     |Et         |Maxime eos natus iusto     |
+	|       |           |officia consequuntur et.   |
 	+-------+-----------+---------------------------+
 
 	: Grid table
@@ -255,23 +255,23 @@ Pipe tables
 
 	| Right | Left | Default | Center |
 	|------:|:-----|---------|:------:|
-	|	12	|  12  |	12	 |	  12  |
-	|  123	|  123 |   123	 |	 123  |
-	|	 1	|	 1 |	 1	 |	   1  |
+	|   12  |  12  |    12   |    12  |
+	|  123  |  123 |   123   |   123  |
+	|    1  |    1 |     1   |     1  |
 
 	: Demonstration of pipe table syntax.
 
 	|-----------|-----------|
-	| Delectus	| Veritatis |
-	| Laboriosam| Modi		|
-	| Nam		| Quibusdam |
+	| Delectus  | Veritatis |
+	| Laboriosam| Modi      |
+	| Nam       | Quibusdam |
 
 	: This is valid too
 
-	| Delectus	| Veritatis |
+	| Delectus  | Veritatis |
 	|-----------+-----------|
-	| Laboriosam| Modi		|
-	| Nam		| Quibusdam |
+	| Laboriosam| Modi      |
+	| Nam       | Quibusdam |
 
 	: And this is valid
 
