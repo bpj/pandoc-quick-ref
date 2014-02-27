@@ -470,6 +470,8 @@ Inline notes
 References
 ==========
 
+These examples don't really work...
+
 	---
 	references:
 	  - id: doe99
