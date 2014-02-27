@@ -1,24 +1,29 @@
-% Pandoc Markdown Quick Reference by Examples
-% Benct Philip Jonsson\
-  \<<bpjonsson@gmail.com>\>
-% 18 September 2013
+---
+title:          Pandoc Markdown Quick Reference by Examples
+author:
+    name:       Benct Philip Jonsson\
+    email:      <bpjonsson@gmail.com>
+original-date:  18 September 2013
+date:           27 February 2014
+...
 
 <!-- https://gist.github.com/bpj/6639231#file-pandoc-quick-ref-markdown -->
 
-For the full official description see the [Pandoc User Guide]
+For the full official description see the [Pandoc User Guide][]
 
 This is a *really* quick reference without
 explanations,[^exception] intended to remind new or returning
 users who have already read the official User Guide.
 
-This file lives as a [gist on Github].
+This file lives [on Github][]. It used to be a [gist][], but it's
+far from certain that the gist will be updated anymore.
 
 If you read it there bear in mind that it may contain markup
 specific to Pandoc's Markdown dialect which the Github renderer
-can't handle. (Currently there are only a couple of
-[footnotes](#footnotes).)
+can't handle outside of the examples. (Currently there are only a couple of
+[footnotes](#footnotes), and the metadata at the top.)
 
-If you wonder why I'm using [Lipsum] everywhere in the examples
+If you wonder why I'm using [Lipsum][] everywhere in the examples
 it is so as to make it easier to translate: you only have to
 translate the headers and the table captions in the table
 examples, and you're done!
@@ -26,11 +31,13 @@ examples, and you're done!
 The layout was also made with a mind to making it easy to
 programmatically produce versions which show what the examples
 look like when converted to various formats and when rendered.[^fileformat]
-
+It was primarily the hope to add some of those scripts which
+prompted the move to Github.
 
 
 [Pandoc User Guide]: <http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown>
-[gist on Github]: <https://gist.github.com/bpj/6639231#file-pandoc-quick-ref-markdown>
+[on github]:    https://github.com/bpj/pandoc-quick-ref
+[gist]: <https://gist.github.com/bpj/6639231#file-pandoc-quick-ref-markdown>
 [Lipsum]:  <http://en.wikipedia.org/wiki/Lipsum>
 
 [^exception]: I snuck in a use case for really ugly pipe tables, though!
