@@ -451,8 +451,8 @@ Pictures with captions
 
 	Blanditiis impedit qui corporis omnis vitae omnis dolor et.
 
-Footnotes
-=========
+Notes
+=====
 
 	Sint consequuntur[^1] illo nobis[^nobis] dolorem quibusdam.
 
@@ -508,24 +508,27 @@ These examples don't really work...
 
 	<!-- The bibliography will be inserted after this header. -->
 
+<!-- NOTE -->
+=============
+
 [^fileformat]:  The file is formatted so that the actual examples, meant to
-                be converted and possibly rendered to display what they
-                become in various output formats are indented with hard
-                (real) tab characters, while text which should merely be
-                copied is flush left or indented with space characters,
-                since I thought that as long as hard tabs are displayed
-                four spaces wide that's less daunting for a newbie than
-                fenced code blocks.  As long as this formatting is
-                preserved the file can be divided into example chunks which
-                match the (Perl) regular expression
+    be converted and possibly rendered to display what they
+    become in various output formats are indented with hard
+    (real) tab characters, while text which should merely be
+    copied is flush left or indented with space characters,
+    since I thought that as long as hard tabs are displayed
+    four spaces wide that's less daunting for a newbie than
+    fenced code blocks.  As long as this formatting is
+    preserved the file can be divided into example chunks which
+    match the (Perl) regular expression
 
-                    / ^ \t .*? (?= ^ [^\t\n] | \z ) /msx
+        / ^ \t .*? (?= ^ [^\t\n] | \z ) /msx
 
-                and text chunks which match the 'inverse' expression
+    and text chunks which match the 'inverse' expression
 
-                    / ^ [^\t\n] .*? (?= ^ \t | \z ) /msx
+        / ^ [^\t\n] .*? (?= ^ \t | \z ) /msx
 
-                although you wold likely need to trim off trailing
-                whitespace from each chunk and join them together again
-                with two newlines between each chunk.  Example chunks can
-                easily be outdented with `s/^\t//gm`.
+    although you wold likely need to trim off trailing
+    whitespace from each chunk and join them together again
+    with two newlines between each chunk.  Example chunks can
+    easily be outdented with `s/^\t//gm`.
