@@ -532,3 +532,6 @@ These examples don't really work...
     whitespace from each chunk and join them together again
     with two newlines between each chunk.  Example chunks can
     easily be outdented with `s/^\t//gm`.
+
+<!-- Vim: set noet ts=4 list ft=markdown: -->
+
